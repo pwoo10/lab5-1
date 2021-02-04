@@ -6,7 +6,7 @@ exports.addFriend = function(request, response) {
 	newFriend = {
 		"name": request.query.name,
 		"description": request.query.description,
-		"imageURL": 'https://www.pngitem.com/pimgs/m/53-533248_cartoon-person-without-face-person-cartoon-hd-png.png',
+		"imageURL": 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png',
 	}
 
 	data.friends.push(newFriend);
